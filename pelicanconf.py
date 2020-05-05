@@ -17,7 +17,6 @@ PLUGIN_PATHS = ['pelican-plugins']
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
-PLUGIN_PATHS = ['/Users/sshickles/Documents/blog/pelican-plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGINS = [
     'i18n_subsites']
