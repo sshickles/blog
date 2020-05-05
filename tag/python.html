@@ -17,20 +17,20 @@
         <meta property="og:site_name" content="Steve Shickles' Blog" />
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Steve Shickles' Blog"/>
-        <meta property="og:url" content="http://blog.steveshickles.com"/>
+        <meta property="og:url" content=".."/>
         <meta property="og:description" content="Steve Shickles' Blog"/>
 
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="http://blog.steveshickles.com/theme/css/bootstrap.flatly.min.css" type="text/css"/>
-    <link href="http://blog.steveshickles.com/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../theme/css/bootstrap.flatly.min.css" type="text/css"/>
+    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="http://blog.steveshickles.com/theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://blog.steveshickles.com/theme/css/style.css" type="text/css"/>
+    <link href="../theme/css/pygments/native.css" rel="stylesheet">
+    <link href="../theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
+        <link href="../static/css/custom.css" rel="stylesheet">
 
-        <link href="http://blog.steveshickles.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Steve Shickles' Blog ATOM Feed"/>
 
 
 </head>
@@ -45,16 +45,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://blog.steveshickles.com/" class="navbar-brand">
+            <a href="../" class="navbar-brand">
 Steve Shickles' Blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
-                            <a href="http://blog.steveshickles.com/category/this-site.html">This site</a>
-                        </li>
+                         <li><a href="../pages/about.html">
+                             About
+                          </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -69,9 +74,23 @@ Steve Shickles' Blog            </a>
     <div class="row">
         <div class="col-sm-9">
             <article>
-                <h2><a href="http://blog.steveshickles.com/first-post.html">First Post</a></h2>
-                <div class="summary"><p>This is the summary of the first post</p>
-                    <a class="btn btn-default btn-xs" href="http://blog.steveshickles.com/first-post.html">more ...</a>
+                <h2><a href="../first-post.html">First Post - Part 1</a></h2>
+                <div class="summary"><p>This is the first post of a series of demonstration posts.</p>
+                    <a class="btn btn-default btn-xs" href="../first-post.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../second-post.html">Second Post - Part 2</a></h2>
+                <div class="summary"><p>This is the second post of a series of posts. It will show series and an embeded youtube video.</p>
+                    <a class="btn btn-default btn-xs" href="../second-post.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../thrid-post.html">Third Post - Part 3</a></h2>
+                <div class="summary"><p>This is the third post of a series of posts. It will demonstrate tables.</p>
+                    <a class="btn btn-default btn-xs" href="../thrid-post.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -92,6 +111,26 @@ Steve Shickles' Blog            </a>
   </ul>
 </li>
 <!-- End Sidebar/Social -->
+
+<!-- Sidebar/Tag Cloud -->
+<li class="list-group-item">
+  <a href="../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <ul class="list-group " id="tags">
+    <li class="list-group-item tag-1">
+      <a href="../tag/python.html">python</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../tag/pelican.html">pelican</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="../tag/blog.html">blog</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="../tag/tables.html">tables</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Tag Cloud -->
 
 <!-- Sidebar/Links -->
 <li class="list-group-item">
@@ -132,14 +171,15 @@ Steve Shickles' Blog            </a>
       </div>
    </div>
 </footer>
-<script src="http://blog.steveshickles.com/theme/js/jquery.min.js"></script>
+<script src="../theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://blog.steveshickles.com/theme/js/bootstrap.min.js"></script>
+<script src="../theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="http://blog.steveshickles.com/theme/js/respond.min.js"></script>
+<script src="../theme/js/respond.min.js"></script>
 
+    <script src="../static/js/custom.js"></script>
 
 
 
