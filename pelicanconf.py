@@ -34,8 +34,7 @@ PLUGINS = [
     'tag_cloud',
     'liquid_tags.youtube',
     'liquid_tags.include_code',
-    'render_math',
-    'tipue_search' ]
+    'render_math' ]
 
 I18N_TEMPLATES_LANG = 'en'
 
