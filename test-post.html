@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>pelican - Steve Shickles' Blog</title>
+    <title>Test Post - Steve Shickles' Blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,26 +9,31 @@
 
 
 
+<link rel="canonical" href="./test-post.html">
 
-    <meta name="author" content="Steve Shickles" />
-    <meta name="keywords" content="pelican" />
+        <meta name="author" content="Steve Shickles" />
+        <meta name="keywords" content="test" />
+        <meta name="description" content="This is another test post." />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="Steve Shickles' Blog" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Steve Shickles' Blog"/>
-        <meta property="og:url" content=".."/>
-        <meta property="og:description" content="Steve Shickles' Blog"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Test Post"/>
+        <meta property="og:url" content="./test-post.html"/>
+        <meta property="og:description" content="This is another test post."/>
+        <meta property="article:published_time" content="2020-05-06" />
+            <meta property="article:section" content="example posts" />
+            <meta property="article:tag" content="test" />
+            <meta property="article:author" content="Steve Shickles" />
 
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="../theme/css/bootstrap.flatly.min.css" type="text/css"/>
-    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./theme/css/bootstrap.flatly.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="../theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
-        <link href="../static/css/custom.css" rel="stylesheet">
+    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+        <link href="./static/css/custom.css" rel="stylesheet">
 
 
 
@@ -44,12 +49,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="../" class="navbar-brand">
+            <a href="./" class="navbar-brand">
 Steve Shickles' Blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="../pages/about.html">
+                         <li><a href="./pages/about.html">
                              About
                           </a></li>
             </ul>
@@ -67,58 +72,40 @@ Steve Shickles' Blog            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="../first-post.html">First Post - Part 1</a></h2>
-                <div class="summary"><p>Series_index: 1
-Summary: This is the first post of a series of demonstration posts.</p>
-<p>This is the first post of a series of demonstration posts.</p>
-                    <a class="btn btn-default btn-xs" href="../first-post.html">more ...</a>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./test-post.html"
+                       rel="bookmark"
+                       title="Permalink to Test Post">
+                        Test Post
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2020-05-06T12:40:00-05:00"> Wed 06 May 2020</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/test.html">test</a>
+    
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../second-post.html">Second Post - Part 2</a></h2>
-                <div class="summary"><p>Series_index: 2
-Summary: This is the second post of a series of posts. It will show series and an embeded youtube video.</p>
-<p>This is the second post of a series of posts. It will show series and an embedded youtube video.</p>
-<p><span class="videobox">
-                    <iframe width="640" height="390"
-                        src='https://www.youtube.com/embed/https://www.youtube.com/watch?v=Qq-5frjUfK0'
-                        frameborder='0' webkitAllowFullScreen
-                        mozallowfullscreen allowFullScreen>
-                    </iframe>
-                </span></p>
-                    <a class="btn btn-default btn-xs" href="../second-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../thrid-post.html">Third Post - Part 3</a></h2>
-                <div class="summary"><p>Series_index: 3
-Summary: This is the third post of a series of posts. It will demonstrate tables.</p>
-<p>This is the third post of a series of posts. It will demonstrate tables.</p>
-<table>
-<thead>
-<tr>
-<th>Column Header</th>
-<th>Column Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Row 1</td>
-<td>Data 1</td>
-</tr>
-<tr>
-<td>Row 2</td>
-<td>Data 2</td>
-</tr>
-</tbody>
-</table>
-                    <a class="btn btn-default btn-xs" href="../thrid-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
+                <p>Another test post for pelican. </p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -139,22 +126,22 @@ Summary: This is the third post of a series of posts. It will demonstrate tables
 
 <!-- Sidebar/Tag Cloud -->
 <li class="list-group-item">
-  <a href="../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+  <a href="./"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
     <li class="list-group-item tag-1">
-      <a href="../tag/python.html">python</a>
+      <a href="./tag/python.html">python</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../tag/pelican.html">pelican</a>
+      <a href="./tag/pelican.html">pelican</a>
     </li>
     <li class="list-group-item tag-1">
-      <a href="../tag/blog.html">blog</a>
+      <a href="./tag/blog.html">blog</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="../tag/test.html">test</a>
+      <a href="./tag/test.html">test</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="../tag/tables.html">tables</a>
+      <a href="./tag/tables.html">tables</a>
     </li>
   </ul>
 </li>
@@ -199,15 +186,15 @@ Summary: This is the third post of a series of posts. It will demonstrate tables
       </div>
    </div>
 </footer>
-<script src="../theme/js/jquery.min.js"></script>
+<script src="./theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../theme/js/bootstrap.min.js"></script>
+<script src="./theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="../theme/js/respond.min.js"></script>
+<script src="./theme/js/respond.min.js"></script>
 
-    <script src="../static/js/custom.js"></script>
+    <script src="./static/js/custom.js"></script>
 
 
 
