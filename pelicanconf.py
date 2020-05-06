@@ -61,7 +61,7 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # for Tique Search Plugin
-DIRECT_TEMPLATES = ('index','tags', 'categories', 'authors', 'archives', 'search')
+#DIRECT_TEMPLATES = ('index','tags', 'categories', 'authors', 'archives', 'search')
 
 # Paths
 PATH = 'content'
