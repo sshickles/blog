@@ -20,11 +20,12 @@ BOOTSTRAP_THEME = 'flatly'
 CUSTOM_CSS = 'static/css/custom.css'
 CUSTOM_JS = 'static/js/custom.js'
 
-STATIC_PATHS = [ 'extra' ]
+STATIC_PATHS = [ 'extra', 'extra/CNAME' ]
 
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/css/custom.css'},
-    'extra/custom.js': {'path': 'static/js/custom.js'}
+    'extra/custom.js': {'path': 'static/js/custom.js'},
+    'extra/CNAME': {'path': 'CNAME'}
 }
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
